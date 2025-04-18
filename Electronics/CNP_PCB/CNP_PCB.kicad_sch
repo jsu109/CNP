@@ -1,0 +1,101 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3fdafdbf-442b-4f7c-b60a-a85895f9231b")
+	(paper "A4")
+	(title_block
+		(title "CalcNumPad")
+	)
+	(lib_symbols)
+	(sheet
+		(at 135.89 31.75)
+		(size 44.45 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bdd6d820-de73-4885-bd60-170cb21bd8a4")
+		(property "Sheetname" "Power"
+			(at 135.89 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 135.89 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CalcNumPad"
+				(path "/3fdafdbf-442b-4f7c-b60a-a85895f9231b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 26.67)
+		(size 48.26 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d1ebdc37-c3ca-4f02-99ba-91c32b1fdbe2")
+		(property "Sheetname" "MCU"
+			(at 38.1 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 38.1 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CalcNumPad"
+				(path "/3fdafdbf-442b-4f7c-b60a-a85895f9231b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

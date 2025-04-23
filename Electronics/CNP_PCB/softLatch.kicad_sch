@@ -1172,7 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 76.2) (xy 137.16 73.66)
+			(xy 137.16 78.74) (xy 137.16 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1943,7 +1943,7 @@
 			"rkJggg=="
 		)
 	)
-	(hierarchical_label "PWRBTNPLCHLDR"
+	(hierarchical_label "PGOOD"
 		(shape input)
 		(at 177.8 74.93 0)
 		(effects
@@ -2403,7 +2403,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5b12bf41-3246-42f9-a848-88ca036380a9")
 		(property "Reference" "Q3"
 			(at 144.78 73.6599 0)
@@ -2415,7 +2414,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GSD"
-			(at 144.78 76.1999 0)
+			(at 155.956 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2814,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 76.2 0)
+		(at 137.16 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2824,7 +2823,7 @@
 		(fields_autoplaced yes)
 		(uuid "9969e9fe-38b0-4269-a6e9-e991139216f3")
 		(property "Reference" "#PWR010"
-			(at 137.16 82.55 0)
+			(at 137.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2832,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 81.28 0)
+			(at 137.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2841,7 +2840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 76.2 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 76.2 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 76.2 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)

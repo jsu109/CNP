@@ -626,304 +626,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7002"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2N7002"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel Switching MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "2N7002_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2N7002_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+1V5"
 			(power)
 			(pin_numbers
@@ -1303,12 +1005,6 @@
 		(uuid "0cd52ba3-dc02-44ae-8c79-d4a2e4def862")
 	)
 	(junction
-		(at 140.97 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4957e83a-d344-4d78-932c-d828b7b3fbc9")
-	)
-	(junction
 		(at 113.03 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1426,16 +1122,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 53.34) (xy 140.97 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45e46133-5c39-488e-bfef-f82e448cdab2")
-	)
-	(wire
-		(pts
 			(xy 127 53.34) (xy 140.97 53.34)
 		)
 		(stroke
@@ -1443,16 +1129,6 @@
 			(type default)
 		)
 		(uuid "52e3d5bd-01e4-4a30-afd3-d6083be137d4")
-	)
-	(wire
-		(pts
-			(xy 125.73 67.31) (xy 133.35 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "582d773e-61e5-440e-be1b-7fb393586d33")
 	)
 	(wire
 		(pts
@@ -1606,16 +1282,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 67.31) (xy 120.65 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c362f44a-ff98-476b-bf5b-d7a8ee858a7c")
-	)
-	(wire
-		(pts
 			(xy 165.1 45.72) (xy 187.96 45.72)
 		)
 		(stroke
@@ -1676,16 +1342,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 74.93) (xy 140.97 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faf42eac-af97-43df-87eb-acb8d5e3d059")
-	)
-	(wire
-		(pts
 			(xy 162.56 50.8) (xy 165.1 50.8)
 		)
 		(stroke
@@ -1694,29 +1350,7 @@
 		)
 		(uuid "ff5d9394-9f5d-4d7a-affe-a24790e3a2ab")
 	)
-	(global_label "TLV_EN"
-		(shape input)
-		(at 114.3 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "07c72a35-1b53-4ff6-8a06-5f4bd1e6e5d9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.7834 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PGOOD"
+	(global_label "PG_1"
 		(shape input)
 		(at 110.49 57.15 180)
 		(fields_autoplaced yes)
@@ -1728,7 +1362,7 @@
 		)
 		(uuid "e748a873-dbe9-4c8d-9b26-26de233cc7c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.0338 57.15 0)
+			(at 102.7877 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,82 +1509,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 138.43 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d9297b1-a83c-4225-b153-f2468bfa6353")
-		(property "Reference" "Q1"
-			(at 144.78 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 144.78 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 143.51 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 143.51 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 138.43 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "afb212fa-6c0b-4622-affa-ba1740e4facf")
-		)
-		(pin "1"
-			(uuid "d03c7eac-f270-4795-bc51-39aac067d077")
-		)
-		(pin "2"
-			(uuid "9b83e11a-95a0-4b89-9838-a4fa5dae781b")
-		)
-		(instances
-			(project ""
-				(path "/3fdafdbf-442b-4f7c-b60a-a85895f9231b/bdd6d820-de73-4885-bd60-170cb21bd8a4"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 165.1 48.26 0)
 		(unit 1)
@@ -2015,74 +1573,6 @@
 			(project ""
 				(path "/3fdafdbf-442b-4f7c-b60a-a85895f9231b/bdd6d820-de73-4885-bd60-170cb21bd8a4"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 123.19 67.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c890357-8503-4e59-8ffe-ccd4e21a37a5")
-		(property "Reference" "R3"
-			(at 123.19 62.23 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 123.19 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 123.19 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 123.19 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89e80115-041e-4b0b-ac88-f7e719297cb3")
-		)
-		(pin "2"
-			(uuid "2c898b4c-fbc1-498d-a372-fc40b25761e4")
-		)
-		(instances
-			(project "CNP_PCB"
-				(path "/3fdafdbf-442b-4f7c-b60a-a85895f9231b/bdd6d820-de73-4885-bd60-170cb21bd8a4"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2713,72 +2203,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 140.97 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8b69a20-7963-4aef-8184-dc94bc1b1504")
-		(property "Reference" "#PWR05"
-			(at 140.97 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8063344-b48a-4700-9006-6865bd3aadb8")
-		)
-		(instances
-			(project "CNP_PCB"
-				(path "/3fdafdbf-442b-4f7c-b60a-a85895f9231b/bdd6d820-de73-4885-bd60-170cb21bd8a4"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V5")
 		(at 102.87 31.75 0)
 		(unit 1)
@@ -2963,9 +2387,9 @@
 				(justify left)
 			)
 		)
-		(pin "PWRBTNPLCHLDR" input
+		(pin "PGOOD" input
 			(at 114.3 57.15 180)
-			(uuid "17c4e73f-4df6-4faf-8e0c-c5a732e899e7")
+			(uuid "2f9d5fd3-fb50-4381-842f-3dcc8e726c6f")
 			(effects
 				(font
 					(size 1.27 1.27)

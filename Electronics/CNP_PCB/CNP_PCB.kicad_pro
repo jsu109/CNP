@@ -249,7 +249,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CalcNumPad.kicad_pro",
+    "filename": "CNP_PCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -395,7 +395,15 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "softLatch",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -419,6 +427,10 @@
     [
       "bdd6d820-de73-4885-bd60-170cb21bd8a4",
       "Power"
+    ],
+    [
+      "fbe866cb-242c-480c-8d22-fe87f6e01ec8",
+      "softLatch"
     ]
   ],
   "text_variables": {}

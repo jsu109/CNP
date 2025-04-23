@@ -682,6 +682,38 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 170.18 55.88) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa69b88e-bdbd-488e-9faa-b646ece26ed5")
+	)
+	(global_label "PGOOD"
+		(shape output)
+		(at 170.18 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad8655ec-1733-4efb-8519-a84d4ea68a95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.7238 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "MCU_Espressif:ESP32-C3")
 		(at 196.85 73.66 0)

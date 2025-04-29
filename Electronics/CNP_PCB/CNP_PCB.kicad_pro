@@ -431,6 +431,10 @@
     [
       "fbe866cb-242c-480c-8d22-fe87f6e01ec8",
       "softLatch"
+    ],
+    [
+      "d1249788-5382-4acb-ab25-0fd6f57b93fb",
+      "SwitchLogic"
     ]
   ],
   "text_variables": {}

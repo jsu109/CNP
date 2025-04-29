@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LandPatterns")(type "KiCad")(uri "${KIPRJMOD}/Lib/LND")(options "")(descr ""))
+  (lib (name "MCAD")(type "KiCad")(uri "${KIPRJMOD}/Lib/MCAD")(options "")(descr ""))
+)

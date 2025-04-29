@@ -684,7 +684,67 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 68.58) (xy 173.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "013a5b7e-9484-4be4-9e6a-200e5108b64c")
+	)
+	(wire
+		(pts
+			(xy 170.18 58.42) (xy 173.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea0da7b-2655-47ed-98fa-725ae19891c6")
+	)
+	(wire
+		(pts
+			(xy 170.18 60.96) (xy 173.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c951314-6611-41e6-94bb-a8083b75087b")
+	)
+	(wire
+		(pts
+			(xy 170.18 66.04) (xy 173.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1211c49-fa86-4321-85e5-c554da3b21da")
+	)
+	(wire
+		(pts
 			(xy 170.18 55.88) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2e243d-17db-485b-9852-731d6c0ecc31")
+	)
+	(wire
+		(pts
+			(xy 170.18 63.5) (xy 173.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b6dcc3-57d7-4d95-9d5e-cd7fcdec50d1")
+	)
+	(wire
+		(pts
+			(xy 170.18 53.34) (xy 173.99 53.34)
 		)
 		(stroke
 			(width 0)
@@ -692,9 +752,9 @@
 		)
 		(uuid "fa69b88e-bdbd-488e-9faa-b646ece26ed5")
 	)
-	(global_label "PGOOD"
+	(global_label "TVL_SHDN"
 		(shape output)
-		(at 170.18 55.88 180)
+		(at 170.18 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -704,7 +764,7 @@
 		)
 		(uuid "ad8655ec-1733-4efb-8519-a84d4ea68a95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.7238 55.88 0)
+			(at 158.0024 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,6 +773,105 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "S2B"
+		(shape output)
+		(at 170.18 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "154952a7-3b1d-436f-a2c6-a6183b3c216d")
+	)
+	(hierarchical_label "~{EN_A}"
+		(shape output)
+		(at 168.91 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ce773d6-c8d7-407f-a406-39add211d161")
+	)
+	(hierarchical_label "EMBTN"
+		(shape output)
+		(at 170.18 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6059c747-9637-4a88-8196-125374b17814")
+	)
+	(hierarchical_label "S1B"
+		(shape output)
+		(at 170.18 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "789d0063-c960-463d-807d-256cc966cf3a")
+	)
+	(hierarchical_label "~{EN_B}"
+		(shape output)
+		(at 168.91 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8eddfd35-2bca-4168-beaf-8cf18f72fde4")
+	)
+	(hierarchical_label "S0A"
+		(shape output)
+		(at 170.18 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5680c28-6464-4567-8074-b473876fef86")
+	)
+	(hierarchical_label "S2A"
+		(shape output)
+		(at 170.18 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6680b9e-7d13-4090-8b9e-30abcd407377")
+	)
+	(hierarchical_label "S1A"
+		(shape output)
+		(at 170.18 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8be75e6-dca0-4e49-aa89-c8f0fd484dd4")
+	)
+	(hierarchical_label "S0B"
+		(shape output)
+		(at 170.18 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f10f9a81-0053-417a-bacb-ab54525bf44c")
 	)
 	(symbol
 		(lib_id "MCU_Espressif:ESP32-C3")

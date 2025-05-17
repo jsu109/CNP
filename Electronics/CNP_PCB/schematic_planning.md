@@ -1,93 +1,81 @@
-# Schematic Planning Document
+## System Function Overview
 
-## Purpose
-To organize and plan the layout and content of each schematic page in a multi-page electronic design.
+- Controller shield board designed for integration with the Casio fx-82MS calculator PCB  
+- Allows the microcontroller to **read keypresses** from the calculator’s keypad matrix  
+- Supports **simulated keypress injection** by actively driving the matrix lines  
+- **Powered by a standard 1.5V AA battery**, with voltage boosted to 3.3V for logic-level compatibility  
+- Enables extended functionality, including:  
+  <!-- - Acting as a **USB HID-compatible numpad**  
+  - Performing **imperial-to-metric unit conversions**  
+  - Providing **currency conversion features**  
+  - Allowing **equation input from external sources** (e.g., Excel)  -->
 
----
+## Schematic Planning
 
-## Page 1: Power Supply
-**Description:**
-- AC/DC conversion (if applicable)
-- Voltage regulators (e.g., LDOs, switch-mode power supplies)
-- Protection circuitry (TVS diodes, fuses, reverse polarity)
+### MCU.kicad_sch
 
-**Notes:**
-- Label all power nets clearly
-- Include test points for major supply rails
+**Purpose:** microcontroller and its supporting circuitry. 
+**Key Design Notes:**
+- Controls button reading,emulating and communication to HID dongle via BLE.
 
----
+**McuTODO**
 
-## Page 2: Microcontroller Unit (MCU)
-**Description:**
-- MCU with decoupling capacitors
-- Reset circuitry
-- Programming/debug headers
-- Clock source (e.g., crystal oscillator)
+- &#x274C; something
+- &#x2705; something else
 
-**Notes:**
-- Place key supporting components close to MCU
-- Route differential clock signals carefully if used
 
----
 
-## Page 3: Sensors
-**Description:**
-- Analog/digital sensors interfaced to MCU
-- Filtering and signal conditioning (e.g., op-amps, RC filters)
 
-**Notes:**
-- Use consistent naming for sensor nets
-- Include pull-up/pull-down resistors where required
 
 ---
 
-## Page 4: Actuators / Outputs
-**Description:**
-- Motor drivers, relays, or output interfaces
-- Feedback sensors for actuators
+## Power.kicad_sch
 
-**Notes:**
-- Isolate high current paths
-- Use flyback diodes on inductive loads
+**Purpose:** Manages power input, voltage regulation
 
----
+**Key Design Notes:**
+-  TLV61070ADBV boost converter boosts 1.5V to 3.3V
+- Soft latch circuit to power on and off the MCU and associated Circuitry. 
 
-## Page 5: Communication Interfaces
-**Description:**
-- UART, SPI, I2C connections
-- USB, CAN, or Ethernet transceivers (if applicable)
+    ## softLatch.kicad_sch
 
-**Notes:**
-- Provide ESD protection on external connectors
-- Maintain controlled impedance if needed
+    **Purpose:** Implements a soft-latching circuit to maintain a power on state of the system when ON button is pressed. Latch is reset via software.
 
----
+   **Key Design Notes:**
+    - The latch is set when user presses the 'on' button for the system. 
+    - The Latch is reset in software via the TLV_SHDN signal from the MCU.
 
-## Page 6: User Interface
-**Description:**
-- Buttons, LEDs, displays, buzzers
+    **softLatch TODO**
 
-**Notes:**
-- Debounce circuitry for buttons
-- Current-limiting resistors for LEDs
+    - &#x2705; Task completed
+    
+
+**PowerTODO**
+
+- &#x274C; something
+- &#x2705; something else
 
 ---
 
-## Page 7: Connectors & Expansion
-**Description:**
-- External interface connectors
-- Breakout headers or reserved test points
+### SwitchLogic.kicad_sch
 
-**Notes:**
-- Clearly label pin functions
-- Use consistent connector symbols
+**Purpose:** Handles connecting KOx and KIx lines
+
+**Key Design Notes:**
+- Two 74HC4051 are used to connect KOx and KIx using the SN74LVC1G3157DBVR SPDT switch. 
+
+**SwitchLogicTODO**
+
+- &#x274C; Implement Logic
+- &#x2705; Define logic table
+- &#x2705; Tidy schematic
 
 ---
 
-## Page 8: Miscellaneous / Reserved
-**Description:**
-- Reserved space for future updates or optional modules
+### buttonReadLogic.kicad_sch
 
-**Notes:**
-- Add placeholders and comments for future expansion
-- Use clear markings to indicate unused or reserved areas
+**Purpose:** 
+
+**Key Design Notes:**
+- 
+---
